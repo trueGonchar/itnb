@@ -332,3 +332,92 @@ color: #ffffff;
 .patern .card-text a:hover{
     color: #e2223f;
 }
+
+.info p{
+ margin-left: 15px;
+ margin-right: 15px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+.ss a{
+    color: #9b9fa3;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+
+}
+
+.ss a:hover{
+text-decoration-color: #e2223f;
+color: #0a111b;
+}
+
+.card-title .ss a{
+    color: #ffffff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1280px) {
+    .back-to-top{
+        position: fixed;
+        right: 10px;
+        bottom: 500px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+    
+    
+    .back-to-oglav{
+        position: fixed;
+        right: 10px;
+        bottom: 600px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+}
+
+@media (min-width: 1600px) {
+    .back-to-top{
+        position: fixed;
+        right: 150px;
+        bottom: 500px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+    
+    
+    .back-to-oglav{
+        position: fixed;
+        right: 150px;
+        bottom: 600px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+}
