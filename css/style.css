@@ -56,8 +56,8 @@ header .nav-item a:hover::after{
   }
 
 .singl-category{
-    font-family: 'Montserrat', sans-serif;
-    font-style: Medium;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
     margin-bottom: 50px;
     
 }
@@ -65,14 +65,15 @@ header .nav-item a:hover::after{
     border-radius: 0%;
 }
 .singl-text .s1{
-    font-size: 14px;
+    font-size: 17px;
     margin-right: 10px;
     
 }
 
 .grid-posts{
-    font-family: 'Montserrat', sans-serif;
-    font-style: Medium;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 19px;
 }
 
 .grid-posts .card img{
@@ -110,7 +111,7 @@ header .nav-item a:hover::after{
 }
 
 .grid-posts .card-teg{
-    font-size: 12px;
+    font-size: 15px;
     height: 25px;
     width: 350px;
     margin-left: 16px;
@@ -121,9 +122,9 @@ header .nav-item a:hover::after{
 }
 
 .namber .nam{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-style: Medium;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .namber .next{
@@ -211,13 +212,10 @@ footer a:hover{
 
   .posts-text1{
       margin-top: 35px;
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
+      
   }
 
   .modal-btn{
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
       font-size: 16px;
   }
 
@@ -237,8 +235,7 @@ footer a:hover{
     }
     
     .modal{
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
+        
         background: rgba(0,0,0,.5);
     }
 
@@ -285,8 +282,9 @@ footer a:hover{
 
 .oglav-text a{
     color: #0a111b;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-style: italic;
+    font-size: 25px;
     
 }
 
@@ -311,6 +309,11 @@ footer a:hover{
 .modal-btn a:hover::after{
     transform: scale(1);
     color: #e2223f;
+}
+
+.patern{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
 }
 
 .patern .card img{
@@ -342,7 +345,7 @@ color: #ffffff;
 
 .ss a{
     color: #9b9fa3;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
 
 }
@@ -354,7 +357,12 @@ color: #0a111b;
 
 .card-title .ss a{
     color: #ffffff;
-    }
+}
+.posts-text1 .row p{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
 
 
 
@@ -413,6 +421,31 @@ color: #0a111b;
     .back-to-oglav{
         position: fixed;
         right: 150px;
+        bottom: 600px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+}
+
+@media (max-width: 1980px) {
+    .back-to-top{
+        position: fixed;
+        right: 300px;
+        bottom: 500px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.199);
+        display: none;
+    }
+    
+    
+    .back-to-oglav{
+        position: fixed;
+        right: 300px;
         bottom: 600px;
         width: 50px;
         height: 50px;
